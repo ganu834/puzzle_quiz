@@ -1,0 +1,99 @@
+name: flutterquiz
+description: A new Flutter application.
+publish_to: "none"
+version: 1.0.18+29
+
+# Release Version: 2.1.4+1 (do not remove or edit this)
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.0
+  cloud_firestore: ^4.9.3
+  connectivity_plus: ^5.0.2
+  country_code_picker: ^3.0.0
+  cupertino_icons: ^1.0.6
+  dotted_border: ^2.1.0
+  encrypt: ^5.0.3
+  firebase_auth: ^4.10.1
+  firebase_core: ^2.17.0
+  firebase_messaging: ^14.6.9
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_local_notifications: ^16.1.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  flutter_tex: ^4.0.3+4
+  flutter_widget_from_html: ^0.14.11
+  flutter_windowmanager: ^0.2.0
+  google_fonts: ^6.1.0
+  google_mobile_ads: ^4.0.0
+  google_sign_in: ^6.1.5
+  hive_flutter: ^1.1.0
+  http: ^1.1.0
+  image_cropper: ^5.0.0
+  image_picker: ^1.0.4
+  in_app_purchase: ^3.1.10
+  internet_connection_checker: ^1.0.0+1
+  intl: ^0.18.1
+  ios_insecure_screen_detector: ^0.0.2
+  just_audio: ^0.9.35
+  launch_review: ^3.0.1
+  lottie: ^3.0.0
+  package_info_plus: ^5.0.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  pin_code_fields: ^8.0.1
+  scratcher: ^2.4.0
+  screenshot: ^2.1.0
+  share_plus: any
+  shared_preferences: ^2.2.1
+  sign_in_with_apple: ^5.0.0
+  unity_ads_plugin: ^0.3.8
+  url_launcher: ^6.1.14
+  wakelock_plus: ^1.1.1
+
+dev_dependencies:
+  change_app_package_name: ^1.1.0
+  dart_code_metrics_presets: ^2.5.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ic_launcher.png"
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/profile/
+
+    - assets/images/emojis/
+    - assets/images/coins/
+
+    - assets/languages/
+    - assets/animations/
+
+    - assets/sounds/
+    - assets/files/
+
+  #   flutter:
+  # ...
+  # assets:
+    - android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+    # - ios/Runner/Assets.xcassets/AppIcon.appiconset/ic_launcher.png
+
